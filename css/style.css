@@ -1,0 +1,126 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+KR&display=swap");
+* {
+  font-family: "Noto Sans KR", sans-serif;
+}
+
+/* background */
+img {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  left: 0px;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  z-index: -1;
+  opacity: 75%;
+}
+
+/* center-align */
+#center-align {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* login, greeting */
+.hidden {
+  display: none;
+}
+#login-form input {
+  width: 150px;
+  height: 25px;
+  border-style: none;
+  border-radius: 10px;
+  outline: none;
+}
+#login-form button {
+  height: 25px;
+  border-style: none;
+  border-radius: 10px;
+  font-weight: bold;
+}
+#greeting {
+  font-weight: bold;
+}
+
+/* quote */
+#quote {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 20px 0px;
+}
+#quote span:first-child {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+/* clock-weather-container */
+#clock-weather-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 250px;
+  height: 135px;
+  margin-bottom: 30px;
+  background-color: rgba(105, 105, 105, 0.5);
+  border-radius: 10px;
+}
+/* clock */
+#clock {
+  font-size: 40px;
+  display: inline;
+  padding: 5px 15px;
+  color: whitesmoke;
+  border-radius: 10px;
+  margin: 5px 0px;
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+/* weather */
+#weather {
+  width: 200px;
+  height: 80px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 18px;
+  color: whitesmoke;
+}
+
+/* todo */
+#todo-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 600px;
+  height: 350px;
+  background-color: rgba(105, 105, 105, 0.5);
+  border-radius: 10px;
+  color: azure;
+}
+#todo-form input {
+  outline: none;
+  border: none;
+  background-color: black;
+  width: 250px;
+  height: 25px;
+  border-radius: 5px;
+  color: aliceblue;
+}
+#todo-list {
+  width: 300px;
+  list-style-type: "🌏";
+}
+#todo-list li {
+  margin-bottom: 10px;
+}
+#todo-list li span {
+  margin-left: 10px;
+}
+#todo-list li button {
+  border: none;
+  margin-left: 5px;
+  background-color: rgba(0, 0, 0, 0);
+}
